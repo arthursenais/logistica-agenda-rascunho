@@ -74,7 +74,7 @@ header {
     margin: 0;
 }
 
-a {
+#corpo1 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-decoration: none;
@@ -135,8 +135,17 @@ footer {
 }
 
 #esquerda a {
-    color: white;
-    align-self: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    transition: 0.2s;
+    padding: 0;
+    margin: 0;
+}
+
+#esquerda a:hover {
+    color: #acaafd;
 }
 
 #direita {
