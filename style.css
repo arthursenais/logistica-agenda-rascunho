@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#f5f5f5, #d2d2d2);
+}
+
+header {
+    top: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faixa {
+    background-color: #4a48fc;
+    width: 100%;
+    padding: 0.5%;
+    padding-inline: 0;
+}
+
+.logo {
+    min-width: 250px;
+    max-width: 250px;
+    margin: 1%;
+    padding: 0;
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 0;
+    width: 100%;
+}
+
+#corpo1 {
+    margin-top: 5%;
+}
+
+.login {
+    margin-top: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 61, 61);
+    padding: 1%;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px;
+    gap: 10px;
+}
+
+.box {
+    border: solid 1px black;
+    padding: 10px;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.titulo {
+    padding: 0;
+    font-family: arial;
+    margin: 0;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    transition: 0.2s;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+
+a:hover {
+    color: #4a48fc;
+}
+
+#botao {
+    margin-top: 20px;
+    background-color: #4a48fc;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 30px;
+    transition: 0.2s;
+}
+
+#botao:hover {
+    background-color: #3936ec;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-inline: 0;
+}
+
+#corpo {
+    display: flex;
+    font-family: arial;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#corpo h1 {
+    margin: 0;
+}
+
+#esquerda {
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    width: 30%;
+    color: white;
+    background-color: rgb(73, 73, 73);
+}
+
+#esquerda a {
+    color: white;
+    align-self: left;
+}
+
+#direita {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
